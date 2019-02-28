@@ -87,7 +87,7 @@ img {
     <div class="flex text-white mt-20">
   <div class="w-full h-12 pl-3">
   <p>Night of Bliss Special 2019 - Poster Maker</p>
-  <h6>Zone2 Christ Embasssy</h6>
+  <h6>New Media - Zone2 Christ Embasssy, Lagos Nigeria</h6>
   </div>
 </div>
     <script src="main.js"></script>
