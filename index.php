@@ -72,7 +72,7 @@ img {
     </div>
     <div
     id="controls"
-    class="max-w-sm overflow-hidden shadow-lg pb-5 pt-5 pl-1 pr-1" 
+    class="max-w-sm overflow-hidden shadow-lg pb-5 pt-5 pl-1 pr-1 mb-20" 
     >
     <div class="font-bold text-xs mb-2">Choose an image to afix.</div>
         <input type="file" name="avatar" id="avatar" 
@@ -84,7 +84,7 @@ img {
 </button>
 
     </div>
-    <div class="flex fixed text-white pin-x pin-b">
+    <div class="flex text-white mt-20">
   <div class="w-full h-12 pl-3">
   <p>Night of Bliss Special 2019 - Poster Maker</p>
   <h6>Zone2 Christ Embasssy</h6>
