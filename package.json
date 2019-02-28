@@ -1,0 +1,22 @@
+{
+  "name": "dom_to_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "victor ighalo",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "html2canvas": "^1.0.0-alpha.12"
+  }
+}
