@@ -1,9 +1,7 @@
 {
   "scripts": {
     "compile": [
-      "chmod -R 777 var/",
-      "chmod 755 etc/",
-      "chmod 644 etc/uploads"
+      "chmod -R 777 uploads/"
     ]
   }
 }
