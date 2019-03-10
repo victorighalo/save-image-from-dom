@@ -11,7 +11,7 @@ $file_tmp = $_FILES['files']['tmp_name'];
 $file_type = $_FILES['files']['type'];
 $file_size = $_FILES['files']['size'];
 $file_ext = strtolower(end(explode('.', $_FILES['files']['name'])));
-$file = $path . date('mds').'_'.$file_name;
+$file = date('mds').'_'.$file_name;
 
 if (!in_array($file_ext, $extensions)) {
     $errors[] = 'Extension not allowed: ' . $file_name . ' ' . $file_type;

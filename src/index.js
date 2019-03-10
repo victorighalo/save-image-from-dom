@@ -18,7 +18,7 @@ fetch(url, {
     return response.json();
   })
   .then(function(myJson) {
-    myImage.src = "uploads/"+myJson.filename;
+    myImage.src = myJson.filename;
     document.getElementById('avatar_container').appendChild(myImage);
 html2canvas(node, {
     allowTaint: true,
