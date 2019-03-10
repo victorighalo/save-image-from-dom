@@ -3,7 +3,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_FILES['files'])) {
 $errors = [];
-$path = 'uploads/';
+$path = './';
 $extensions = ['jpg', 'jpeg', 'png', 'gif'];
 
 $file_name = $_FILES['files']['name'];
