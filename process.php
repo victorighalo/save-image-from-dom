@@ -10,7 +10,9 @@ $file_name = $_FILES['files']['name'];
 $file_tmp = $_FILES['files']['tmp_name'];
 $file_type = $_FILES['files']['type'];
 $file_size = $_FILES['files']['size'];
-$file_ext = strtolower(end(explode('.', $_FILES['files']['name'])));
+$f = $_FILES['files']['name'];
+$file_ext = (explode('.', $f));
+$file_ext = strtolower(end($file_ext));
 $file = date('mds').'_'.$file_name;
 
 if (!in_array($file_ext, $extensions)) {
@@ -23,7 +25,7 @@ if ($file_size > 2097152) {
 if (empty($errors)) {
     move_uploaded_file($file_tmp, $file);
     header('Content-type: application/json');
-    echo(json_encode(['filename' => $file_name]));
+    echo(json_encode(['filename' => $file]));
 }
 
 if ($errors) print_r($errors);
